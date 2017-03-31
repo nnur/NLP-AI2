@@ -10,7 +10,6 @@ using namespace std;
 int drawIndex(vector<double> &probs){
 
 	int size = probs.size();
-
 	double rNum = ( (double) (rand()%size) )/size;
 
 	double sum = 0;
