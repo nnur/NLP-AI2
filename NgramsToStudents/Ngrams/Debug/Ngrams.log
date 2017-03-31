@@ -1,0 +1,17 @@
+﻿Build started 3/29/2017 7:36:13 PM.
+     1>Project "C:\Users\nnur3.GAUL\Downloads\toStudents\toStudents\NgramsToStudents\Ngrams\Ngrams.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Ngrams.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Ngrams.vcxproj -> C:\Users\nnur3.GAUL\Downloads\toStudents\toStudents\NgramsToStudents\Debug\Ngrams.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Ngrams.unsuccessfulbuild".
+         Touching "Debug\Ngrams.lastbuildstate".
+     1>Done Building Project "C:\Users\nnur3.GAUL\Downloads\toStudents\toStudents\NgramsToStudents\Ngrams\Ngrams.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07
