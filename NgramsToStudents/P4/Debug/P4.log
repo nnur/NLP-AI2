@@ -1,0 +1,5 @@
+﻿  p4.cpp
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(20): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  P4.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Debug\P4.exe
+  P4.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Debug\P4.pdb (Partial PDB)
