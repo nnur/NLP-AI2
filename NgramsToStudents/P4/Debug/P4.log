@@ -1,5 +1,10 @@
 ﻿  p4.cpp
-c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(20): warning C4018: '<=': signed/unsigned mismatch
-c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(24): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(21): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(45): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(48): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(65): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(121): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p4\p4.cpp(141): warning C4018: '<': signed/unsigned mismatch
   P4.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Debug\P4.exe
   P4.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Debug\P4.pdb (Partial PDB)
