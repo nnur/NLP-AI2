@@ -1,0 +1,25 @@
+﻿  p5.cpp
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(21): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(45): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(48): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(59): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(67): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(89): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(107): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(115): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(144): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(155): warning C4018: '>=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(160): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(167): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(182): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(202): warning C4018: '>=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(254): warning C4018: '<=': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(262): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(285): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(298): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(311): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(321): warning C4018: '<': signed/unsigned mismatch
+c:\users\naila nur\dev\nlp-ai2\ngramstostudents\p5\p5.cpp(333): warning C4018: '<': signed/unsigned mismatch
+  P5.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Debug\P5.exe
+  P5.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Debug\P5.pdb (Partial PDB)
