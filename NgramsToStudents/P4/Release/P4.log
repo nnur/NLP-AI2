@@ -1,0 +1,12 @@
+﻿  p4.cpp
+p4.cpp(21): warning C4018: '<=': signed/unsigned mismatch
+p4.cpp(25): warning C4018: '<': signed/unsigned mismatch
+p4.cpp(45): warning C4018: '<=': signed/unsigned mismatch
+p4.cpp(48): warning C4018: '<': signed/unsigned mismatch
+p4.cpp(65): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+p4.cpp(121): warning C4018: '<': signed/unsigned mismatch
+p4.cpp(148): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 1034 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  P4.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Release\P4.exe

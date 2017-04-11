@@ -122,6 +122,7 @@ void p4(string fileName, string fileName2, int nSize, double delta) {
 		vector<T> nGram = sentenceNgrams[i];
 
 		bottom = getBottom(V, N, nSize, delta);
+		
 		double topProb = getProb(nGram, allGrams[nSize], bottom, delta);
 		
 		nGram.pop_back();
@@ -133,13 +134,18 @@ void p4(string fileName, string fileName2, int nSize, double delta) {
 			bottomProb = 1;
 		}
 
-		totalProb += log(topProb / bottomProb);
+		if (topProb != 0 && bottomProb != 0) {
+			cout << topProb / bottomProb << endl;
+			totalProb += log(topProb / bottomProb);
+		}
+		else {
+			totalProb += -DBL_MAX;
+		}
 	}
 
 	vector<T> nGram = sentenceNgrams[0];
 
 	for (int j = 0; j < (nGram.size() - 1); j++) {
-		
 		vector<T> tempGram;
 
 		for (int i = 0; i <= j; i++) {
@@ -155,7 +161,13 @@ void p4(string fileName, string fileName2, int nSize, double delta) {
 			bottom = getBottom(V, N, j, delta);
 			bottomProb = getProb(tempGram, allGrams[j], bottom, delta);
 		}
-		totalProb += log(topProb / bottomProb);
+
+		if (topProb != 0 && bottomProb != 0) {
+			totalProb += log(topProb / bottomProb);
+		}
+		else {
+			totalProb += -DBL_MAX;
+		}
 	}
 
 	cout << "totalProb " << totalProb << endl;
