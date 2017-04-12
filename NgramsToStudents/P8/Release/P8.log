@@ -1,0 +1,18 @@
+﻿  p8.cpp
+p8.cpp(19): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(27): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(47): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(55): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(60): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(84): warning C4018: '<=': signed/unsigned mismatch
+p8.cpp(88): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(108): warning C4018: '<=': signed/unsigned mismatch
+p8.cpp(111): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(147): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(173): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(206): warning C4018: '<': signed/unsigned mismatch
+p8.cpp(215): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 1713 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  P8.vcxproj -> C:\Users\Naila Nur\dev\NLP-AI2\NgramsToStudents\Release\P8.exe

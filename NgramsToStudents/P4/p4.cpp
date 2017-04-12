@@ -139,7 +139,8 @@ void p4(string fileName, string fileName2, int nSize, double delta) {
 			totalProb += log(topProb / bottomProb);
 		}
 		else {
-			totalProb += -DBL_MAX;
+			totalProb = -DBL_MAX;
+			break;
 		}
 	}
 
@@ -166,7 +167,8 @@ void p4(string fileName, string fileName2, int nSize, double delta) {
 			totalProb += log(topProb / bottomProb);
 		}
 		else {
-			totalProb += -DBL_MAX;
+			totalProb = -DBL_MAX;
+			break;
 		}
 	}
 

@@ -102,42 +102,38 @@ double getProb(vector<T> nGram, unordered_map<vector<T>, int> nGrams, double bot
 
 double getSentenceProb(unordered_map<int, gramCounts> allGrams, vector<T> sentenceTokens, double delta, int nSize, double N) {
 	vector<vector<T>> sentenceNgrams = getNgramsVector(sentenceTokens, nSize);
-
 	double V = 256;
-
-	//cout << endl;
 	//cout << "delta " << delta << " nSize " << nSize << " numTokens " << N << " V size "<<V<<endl;
 	double bottom = getBottom(V, N, nSize, delta);
 
 	double totalProb = 0;
-
+	
 	for (int i = 0; i < sentenceNgrams.size(); i++) {
 		vector<T> nGram = sentenceNgrams[i]; 
 
 		bottom = getBottom(V, N, nSize, delta);
 		double topProb = getProb(nGram, allGrams[nSize], bottom, delta);
+		double bottomProb = 1;
 
-		nGram.pop_back();
-
-		bottom = getBottom(V, N, nSize - 1, delta);
-		double bottomProb = getProb(nGram, allGrams[nSize - 1], bottom, delta);
-
-		if (nSize == 1) {
-			bottomProb = 1;
+		if (nSize > 1) {
+			nGram.pop_back();
+			bottom = getBottom(V, N, nSize - 1, delta);
+			bottomProb = getProb(nGram, allGrams[nSize - 1], bottom, delta);	
 		}
+
 
 		if (topProb != 0 && bottomProb != 0) {
 			totalProb += log(topProb / bottomProb);
-		}
-		else {
-			totalProb += -DBL_MAX;
+		} else {
+			totalProb = -DBL_MAX;
+			cout << totalProb << endl;
+			return totalProb;
 		}
 	}
 
 	vector<T> nGram = sentenceNgrams[0];
 
 	for (int j = 0; j < (nGram.size() - 1); j++) {
-
 		vector<T> tempGram;
 
 		for (int i = 0; i <= j; i++) {
@@ -157,9 +153,10 @@ double getSentenceProb(unordered_map<int, gramCounts> allGrams, vector<T> senten
 
 		if (topProb != 0 && bottomProb != 0) {
 			totalProb += log(topProb / bottomProb);
-		}
-		else {
-			totalProb += -DBL_MAX;
+		} else {
+			totalProb = -DBL_MAX;
+			cout << totalProb << endl;
+			return totalProb;
 		}
 	}
 
@@ -174,6 +171,7 @@ void printNgram(vector<T>nGram) {
 }
 
 void printConfusionMatrix(vector<vector<int>> confusionMatrix) {
+	cout << endl;
 	for (int i = 0; i < confusionMatrix.size(); i++) {
 		vector<int> confRow = confusionMatrix[i];
 
@@ -196,7 +194,7 @@ void p6(int nSize, double delta, int senLength) {
 		string prefix = "..\\..\\Texts\\Languages\\";
 		const int numLangs = 6;
 		//string fileNames[numLangs] = {"english", "danish", "french", "italian", "latin", "sweedish"};
-		string fileNames[numLangs] = { "danish", "english", "french", "italian", "latin", "sweedish" };
+		string fileNames[numLangs] = { "sweedish", "italian", "latin", "english", "french", "danish" };
 
 		for (int i = 0; i < numLangs; i++) {
 			vector<T> tokens;
@@ -271,7 +269,7 @@ void p6(int nSize, double delta, int senLength) {
 
 		double percentWrong = 100*  numIncorrect / numClassified;
 		cout << "percentWrong "<<percentWrong << endl;
-		cout << " numinCorrect " << numIncorrect << " numClassified " << numClassified;
+		cout << " numinCorrect " << numIncorrect << " numClassified " << numClassified<<endl;
 
 		printConfusionMatrix(confusionMatrix);
 
